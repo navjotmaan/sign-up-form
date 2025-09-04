@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.background-img {
+    background-image: url(./resources/pavel-moiseev-fjYkG7V3llc-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40%;
+}
+
+.form {
+    width: 60%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./resources/Norse-Bold.otf);
+}
+
+.logo {
+    background-color: black;
+    width: 75%;
+    height: 80px;
+    opacity: 0.7;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Norse-Bold', Arial, Helvetica, sans-serif;
+    margin: 20% 0;
+}
+
+.credits {
+    margin: 70% 0;
+    color: aliceblue;
+}
+
+.credits a {
+    color: aliceblue;
+}
