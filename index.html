@@ -9,14 +9,64 @@
 
 <body>
     <div class="container">
-        <div class="background-img">
-            <div class="logo">ODIN</div>
+        <section class="background-img">
+            <div id="logo-name"><img src="./resources/odin-lined.png" id="logo-img"> ODIN</div>
 
             <div class="credits">Photo by <a href="https://unsplash.com/@pavelmois?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pavel Moiseev</a> on <a href="https://unsplash.com/photos/yellow-van-and-white-car-parked-on-street-fjYkG7V3llc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div> 
-        </div>
+        </section>
 
-        <div class="form">
-            <h2>This is not a real online service. This is just a sign-up form project.</h2>
+        
+        <div class="content">
+            <section class="heading">
+                <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
+                <h3 id="sec-line">You <em>know</em> you want to.</h3>
+            </section>
+            
+
+            <form>
+                <h2>Let's do this!</h2>
+                <div class="data">
+                    <div class="info">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+
+                    <div class="info">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+
+                <div class="data">
+                    <div class="info">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="info">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="number" id="phone-number" name="phone-number">
+                    </div>
+                </div>
+
+                <div class="data">
+                    <div class="info">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+
+                    <div class="info">
+                        <label for="password-conf">CONFIRM PASSWORD</label>
+                        <input type="password" id="password-conf" name="password-conf">
+                        </div>
+                </div>
+            </form>
+
+            <section class="login-section">
+                <button id="create-account">Create Account</button>
+                <p>Already have an account? <a href="#" id="login">Log in</a></p>
+            </section>
+
         </div>
     </div>
 
